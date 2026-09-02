@@ -1,0 +1,31 @@
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Virtual envs
+venv/
+.venv/
+
+# Env / secrets
+backend/.env
+
+# Local databases / uploads
+backend/data/*.sqlite3
+backend/uploads/
+
+# Downloaded assets (can be regenerated)
+assets/posters/
+
+# Editor
+.vscode/
+
+
+# Large datasets (keep local)
+backend/data/
+
+# Local GitHub CLI config
+.gh/
